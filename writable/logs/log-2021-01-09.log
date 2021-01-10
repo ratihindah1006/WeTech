@@ -1,0 +1,106 @@
+CRITICAL - 2021-01-09 11:12:32 --> Class 'App\Models\UsersModel' not found
+#0 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(890): App\Controllers\Auth->__construct()
+#1 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/BrondoL/Downloads/Bioskop/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/BrondoL/Downloads/Bioskop/system/Commands/Server/rewrite.php(34): require_once('/home/BrondoL/D...')
+#5 {main}
+CRITICAL - 2021-01-09 11:12:49 --> Class 'App\Models\UserModel' not found
+#0 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(890): App\Controllers\Auth->__construct()
+#1 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/BrondoL/Downloads/Bioskop/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/BrondoL/Downloads/Bioskop/system/Commands/Server/rewrite.php(34): require_once('/home/BrondoL/D...')
+#5 {main}
+CRITICAL - 2021-01-09 11:21:08 --> Call to a member function getLogin() on null
+#0 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(918): App\Controllers\Auth->login()
+#1 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/BrondoL/Downloads/Bioskop/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/BrondoL/Downloads/Bioskop/system/Commands/Server/rewrite.php(34): require_once('/home/BrondoL/D...')
+#5 {main}
+CRITICAL - 2021-01-09 11:22:39 --> Call to a member function getLogin() on null
+#0 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(918): App\Controllers\Auth->login()
+#1 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/BrondoL/Downloads/Bioskop/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/BrondoL/Downloads/Bioskop/system/Commands/Server/rewrite.php(34): require_once('/home/BrondoL/D...')
+#5 {main}
+CRITICAL - 2021-01-09 11:26:57 --> Call to a member function getLogin() on null
+#0 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(918): App\Controllers\Auth->login()
+#1 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/BrondoL/Downloads/Bioskop/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/BrondoL/Downloads/Bioskop/system/Commands/Server/rewrite.php(34): require_once('/home/BrondoL/D...')
+#5 {main}
+CRITICAL - 2021-01-09 11:27:38 --> Call to a member function getLogin() on null
+#0 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(918): App\Controllers\Auth->login()
+#1 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/BrondoL/Downloads/Bioskop/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/BrondoL/Downloads/Bioskop/system/Commands/Server/rewrite.php(34): require_once('/home/BrondoL/D...')
+#5 {main}
+CRITICAL - 2021-01-09 11:31:03 --> Call to a member function getLogin() on null
+#0 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(918): App\Controllers\Auth->login()
+#1 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/BrondoL/Downloads/Bioskop/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/BrondoL/Downloads/Bioskop/system/Commands/Server/rewrite.php(34): require_once('/home/BrondoL/D...')
+#5 {main}
+CRITICAL - 2021-01-09 11:31:32 --> Call to a member function getLogin() on null
+#0 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(918): App\Controllers\Auth->login()
+#1 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/BrondoL/Downloads/Bioskop/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/BrondoL/Downloads/Bioskop/system/Commands/Server/rewrite.php(34): require_once('/home/BrondoL/D...')
+#5 {main}
+CRITICAL - 2021-01-09 11:32:23 --> Undefined property: App\Controllers\Auth::$UserModel
+#0 /home/BrondoL/Downloads/Bioskop/app/Controllers/Auth.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 46, Array)
+#1 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(918): App\Controllers\Auth->login()
+#2 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/Bioskop/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/Bioskop/system/Commands/Server/rewrite.php(34): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-01-09 11:32:29 --> Call to a member function getLogin() on null
+#0 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(918): App\Controllers\Auth->login()
+#1 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/BrondoL/Downloads/Bioskop/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/BrondoL/Downloads/Bioskop/system/Commands/Server/rewrite.php(34): require_once('/home/BrondoL/D...')
+#5 {main}
+CRITICAL - 2021-01-09 11:35:50 --> Call to a member function getLogin() on null
+#0 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(918): App\Controllers\Auth->login()
+#1 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/BrondoL/Downloads/Bioskop/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/BrondoL/Downloads/Bioskop/system/Commands/Server/rewrite.php(34): require_once('/home/BrondoL/D...')
+#5 {main}
+CRITICAL - 2021-01-09 11:36:38 --> Call to a member function getLogin() on null
+#0 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(918): App\Controllers\Auth->login()
+#1 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/BrondoL/Downloads/Bioskop/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/BrondoL/Downloads/Bioskop/system/Commands/Server/rewrite.php(34): require_once('/home/BrondoL/D...')
+#5 {main}
+CRITICAL - 2021-01-09 11:36:42 --> Call to a member function getLogin() on null
+#0 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(918): App\Controllers\Auth->login()
+#1 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/BrondoL/Downloads/Bioskop/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/BrondoL/Downloads/Bioskop/system/Commands/Server/rewrite.php(34): require_once('/home/BrondoL/D...')
+#5 {main}
+CRITICAL - 2021-01-09 11:36:53 --> Call to a member function getLtogin() on null
+#0 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(918): App\Controllers\Auth->login()
+#1 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/BrondoL/Downloads/Bioskop/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/BrondoL/Downloads/Bioskop/system/Commands/Server/rewrite.php(34): require_once('/home/BrondoL/D...')
+#5 {main}
+CRITICAL - 2021-01-09 11:37:05 --> Call to a member function sadadgin() on null
+#0 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(918): App\Controllers\Auth->login()
+#1 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 /home/BrondoL/Downloads/Bioskop/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/BrondoL/Downloads/Bioskop/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/BrondoL/Downloads/Bioskop/system/Commands/Server/rewrite.php(34): require_once('/home/BrondoL/D...')
+#5 {main}
