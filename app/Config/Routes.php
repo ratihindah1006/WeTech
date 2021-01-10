@@ -34,6 +34,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/Login', 'Auth::index');
 $routes->get('/Register', 'Auth::register');
+$routes->get('/AddMovie', 'Movie::index');
 
 /**
  * --------------------------------------------------------------------
