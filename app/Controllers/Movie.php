@@ -13,12 +13,20 @@ class Movie extends BaseController
 		$data = [
 			'title' => 'AddMovie',
 			'movie' =>$this->MovieModel->get_movie(),
-			'isi' => 'movie',
+			'isi' => 'AdminMovie/movie',
+		];
+		echo view('layouts/wrapper', $data);
+	}
+
+	public function addMovie()
+	{
+		$data = [
+			'title' => 'AddMovie',
+			'isi' => 'AdminMovie/addMovie',
 		];
 		echo view('layouts/wrapper', $data);
 	}
 
 
-	
 
 }

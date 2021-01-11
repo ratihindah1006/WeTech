@@ -1,20 +1,22 @@
-
-    <div class="container" >
+<br><br><br>
+    
+    <div class="container"  >
 
     <div class="col-md-6" >
-    <div class="card bg-danger" >
+    <div class="card bg-warning" >
     
 
-              <div align ="center"></br></br></br>
-                <h3 >CHECKOUT</h3>
-              </div> </br></br></br>
-              <form method="post"  align ="center" >
-              
-                <div class="card-body" >
+          <div align ="center"></br></br></br>
+                  <h3 >CHECKOUT</h3>
+                </div> </br></br></br>
+                <form method="post"  >
+                
+                  <div class="card-body" >
+
              
                   <div class="form-group" >
                     <label>Judul Film : </label>
-                    <select >
+                    <select class="form-control">
                         <option>milea: suara dari dilan</option>
                         <option>generasi 90an: melankolia</option>
                         <option>the new mutants</option>
@@ -23,19 +25,20 @@
                   
                   <div class="form-group">
                   <label>Tanggal : </label>
-                    <input type="date"  >
+                    <input type="date" class="form-control" >
                   </div>
                   <div class="form-group">
                   <label>Jam : </label>
-                    <input type="time"  >
+                    <input type="time" class="form-control" >
                   </div>
                   
                   
                 </div> </br></br></br>
                 <!-- /.card-body -->
 
-                <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Checkout</button>
+                <div class="card-footer" align="center">
+
+                  <a href="Checkout_Berhasil" class="btn btn-primary">Checkout</a>
                 </div>
               </form> </br></br></br>
 

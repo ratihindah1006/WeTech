@@ -1,5 +1,3 @@
-<br><br><br>
-
 <div class="container" >
 
 <div class="col-md-9" >
@@ -7,7 +5,7 @@
 
 
           <div align ="center"></br></br></br>
-            <h3 >PEMBAYARAN</h3>
+            <h3 >VERIFIKASI</h3>
           </div> </br></br></br>
           <form method="post">
           
@@ -27,12 +25,17 @@
               <label>&nbsp;&nbsp;Jam : </label>
                 
               </div></br>
+
+              <div class="form-group">
+              <label>&nbsp;&nbsp;Total Bayar : </label>
+                
+              </div></br>
               
               
             </div> </br></br></br>
             
 
             <div class="card-footer" align ="center">
-            <a href="VerifikasiAdmin" class="btn btn-primary ">Bayar</a>
+            <a href="Cetak" class="btn btn-primary">Verifikasi</a>
             </div>
           </form> </br></br></br>

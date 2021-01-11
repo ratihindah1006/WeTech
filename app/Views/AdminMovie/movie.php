@@ -1,7 +1,7 @@
  <div class="col-sm-12">
         <h3 class="mt-2">Movie</h3>
-         <a href="/addMovie" class="btn btn-primary mb-3">Add Movie</a>
-                    <table class="table">
+         <a href="addMovie" class="btn btn-primary mb-3">Add Movie</a>
+         <table id="example1" class="table table-bordered table-striped">
                         <thead>
                             <tr>
                                 <th >movie_id</th>
@@ -30,13 +30,14 @@
                                         <td><?= $value['genre'] ?></td>
                                         <td><?= $value['duration'] ?></td>
                                         <td><?= $value['released_at'] ?></td>
+                                        <td><?= $value['producer'] ?></td>
                                         <td><?= $value['sutradara'] ?></td>
                                         <td><?= $value['cast'] ?></td>
                                         <td><?= $value['sinopsis'] ?></td>
                                         <td><?= $value['is_active'] ?></td>
                                         <td>
-                                            <a href="" class="btn-warning">edit</a>
-                                            <a href="" class="btn-danger">delete</a>
+                                            <a href="" class="btn btn-warning">edit</a>
+                                            <a href="" class="btn btn-danger">delete</a>
                                         </td>
                                     </tr>
                                 <?php
