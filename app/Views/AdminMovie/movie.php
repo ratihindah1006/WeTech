@@ -36,7 +36,7 @@
                                         <td><?= $value['sinopsis'] ?></td>
                                         <td><?= $value['is_active'] ?></td>
                                         <td>
-                                            <a href="" class="btn btn-warning">edit</a>
+                                            <a href="EditMovie" class="btn btn-warning">edit</a>
                                             <a href="" class="btn btn-danger">delete</a>
                                         </td>
                                     </tr>

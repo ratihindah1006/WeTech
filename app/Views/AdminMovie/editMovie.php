@@ -7,7 +7,7 @@
     
 
               <div align ="center"></br></br></br>
-                <h3 >Add Movie</h3>
+                <h3 >Edit Movie</h3>
               </div> </br></br></br>
               <form method="post"  >
               
@@ -68,7 +68,7 @@
                 <!-- /.card-body -->
 
                 <div class="card-footer" align="center">
-                <a href="Movie" class="btn btn-primary">Add</a>
+                <a href="Movie" class="btn btn-primary">Edit</a>
                 </div>
               </form> </br></br></br>
 

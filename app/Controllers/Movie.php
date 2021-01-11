@@ -18,15 +18,4 @@ class Movie extends BaseController
 		echo view('layouts/wrapper', $data);
 	}
 
-	public function addMovie()
-	{
-		$data = [
-			'title' => 'AddMovie',
-			'isi' => 'AdminMovie/addMovie',
-		];
-		echo view('layouts/wrapper', $data);
-	}
-
-
-
 }

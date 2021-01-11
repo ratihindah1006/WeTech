@@ -12,15 +12,10 @@
                 <form method="post"  >
                 
                   <div class="card-body" >
-
              
-                  <div class="form-group" >
-                    <label>Judul Film : </label>
-                    <select class="form-control">
-                        <option>milea: suara dari dilan</option>
-                        <option>generasi 90an: melankolia</option>
-                        <option>the new mutants</option>
-                    </select >
+                  <div class="form-group">
+                  <label>Judul : </label>
+                    <input type="text" class="form-control" >
                   </div>
                   
                   <div class="form-group">
