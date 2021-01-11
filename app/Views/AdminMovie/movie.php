@@ -1,12 +1,24 @@
  <div class="col-sm-12">
         <h3 class="mt-2">Movie</h3>
          <a href="addMovie" class="btn btn-primary mb-3">Add Movie</a>
+         <br>
+         <?php
+         if(!empty(session()->getFlashdata('success')))
+         {
+             ?>
+             <div classs="alert alert-success">
+                 <?= session()->getFlashdata('succses');?>
+             </div>
+             <?php
+         }
+         ?>
          <table id="example1" class="table table-bordered table-striped">
+             
                         <thead>
                             <tr>
                                 <th >movie_id</th>
                                 <th >img</th>
-                                <th >tittle</th>
+                                <th >title</th>
                                 <th >genre</th>
                                 <th >duration</th>
                                 <th >released_at</th>
@@ -25,7 +37,7 @@
                                     ?>
                                     <tr>
                                         <td><?= $no++; ?></td>
-                                        <td><?= $value['img'] ?></td>
+                                        <td><img src="/images/<?= $value['img']; ?>" alt="" class="sampul" width="60px" height="90px"></td>
                                         <td><?= $value['title'] ?></td>
                                         <td><?= $value['genre'] ?></td>
                                         <td><?= $value['duration'] ?></td>
@@ -36,8 +48,8 @@
                                         <td><?= $value['sinopsis'] ?></td>
                                         <td><?= $value['is_active'] ?></td>
                                         <td>
-                                            <a href="EditMovie" class="btn btn-warning">edit</a>
-                                            <a href="" class="btn btn-danger">delete</a>
+                                            <a href="<?= base_url('Movie/editMovie/'.$value['movie_id'])?>" class="btn btn-warning">edit</a>
+                                            <a href="<?= base_url('Movie/deleteMovie/'.$value['movie_id'])?>" class="btn btn-danger" onclick="return confirm('apakah yakin akan menghapus film ini?')">delete</a>
                                         </td>
                                     </tr>
                                 <?php
