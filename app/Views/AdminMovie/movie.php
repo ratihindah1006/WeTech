@@ -16,8 +16,8 @@
              
                         <thead>
                             <tr>
-                                <th >movie_id</th>
-                                <th >img</th>
+                                <th >no</th>
+                                <th >poster</th>
                                 <th >title</th>
                                 <th >genre</th>
                                 <th >duration</th>

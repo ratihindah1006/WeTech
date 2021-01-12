@@ -28,7 +28,9 @@ class Movie extends BaseController
 	}
 
 	public function save_add()
-	{
+	{	
+		
+					
 		$data=[
 			
 			'img' => $this->request->getPost('img'),
@@ -46,6 +48,8 @@ class Movie extends BaseController
 		$this->movieModel->insert_movie($data);
 		session()->setFlashdata('success','film berhasil ditambahkan');
 		return redirect()->to(base_url('movie'));
+
+		
 	}
 	public function editMovie($movie_id)
 	{

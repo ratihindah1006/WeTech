@@ -9,37 +9,37 @@
               <div align ="center"></br></br></br>
                 <h3 >Add User Terdaftar</h3>
               </div> </br></br></br>
-              <form method="post"  >
+              <form action ="<?= base_url('terdaftar/save_add');?>" method="post"  >
               <div class="card-body" >
                   
                   <div class="form-group">
                   <label>Nama : </label>
-                    <input type="text" class="form-control" >
+                    <input name="nama" type="text" class="form-control" >
                   </div>
 
                   <div class="form-group">
                   <label>Email : </label>
-                    <input type="text" class="form-control" >
+                    <input name="email" type="text" class="form-control" >
                   </div>
 
                   <div class="form-group">
                   <label>Password : </label>
-                    <input type="text" class="form-control" >
+                    <input name="password" type="password" class="form-control" >
                   </div>
 
                   <div class="form-group">
                   <label>Role Id : </label>
-                    <input type="number" class="form-control" >
+                    <input name="role_id" type="number" class="form-control" >
                   </div>
 
                   <div class="form-group">
                   <label>Is Active : </label>
-                    <input type="number" class="form-control" >
+                    <input name="is_active" type="number" class="form-control" >
                   </div>
 
                   <div class="form-group">
                   <label>Date Created : </label>
-                    <input type="date" class="form-control" >
+                    <input name="date_created" type="date" class="form-control" >
                   </div>
                   
                   
@@ -47,7 +47,7 @@
                 <!-- /.card-body -->
 
                 <div class="card-footer" align="center">
-                <a href="Movie" class="btn btn-primary">Add</a>
+                <button type="submit" class="btn btn-primary">Add</button>
                 </div>
               </form> </br></br></br>
 
