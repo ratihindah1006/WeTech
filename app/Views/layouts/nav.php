@@ -7,9 +7,6 @@
 				<li><a href="Homepage">
 						<div class="homepage"><i class="videos"></i><i class="videos1"></i></div>
 					</a></li>
-				<li><a href="Checkout">
-						<div class="bk"><i class="booking"></i><i class="booking1"></i></div>
-					</a></li>
 				<li><a href="Cetak">
 						<div class="#"><i class="watching"></i><i class="watching1"></i></div>
 					</a></li>

@@ -1,11 +1,11 @@
 <?php namespace App\Controllers;
 
-class VerifikasiAdmin extends BaseController
+class Bayar extends BaseController
 {
 	public function index()
 	{
 		$data = [
-			'isi' => 'verifikasiAdmin',
+			'isi' => 'AdminBayar/bayar',
 		];
 		echo view('layout/wrapper', $data);
 	}
