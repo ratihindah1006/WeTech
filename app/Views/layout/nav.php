@@ -3,15 +3,12 @@
 	<div class="full">
 		<div class="menu">
 			<ul>
-				<li><a href="Home"><i class="home"></i></a></li>
-				<li><a href="Homepage">
-						<div class="homepage"><i class="videos"></i><i class="videos1"></i></div>
-					</a></li>
-				<li><a href="Checkout">
-						<div class="bk"><i class="booking"></i><i class="booking1"></i></div>
-					</a></li>
-				<li><a href="Cetak">
+				<li><a href="Movie"><i class="home"></i></a></li>
+				<li><a href="Terdaftar">
 						<div class="#"><i class="watching"></i><i class="watching1"></i></div>
+					</a></li>
+				<li><a href="VerifikasiAdmin">
+						<div class="bk"><i class="booking"></i><i class="booking1"></i></div>
 					</a></li>
 				<li><a href="<?= base_url('Login'); ?>"><i class="fas fa-fw fa-sign-in-alt fa-4x" style="color: gray;"></i></a></li>
 			</ul>

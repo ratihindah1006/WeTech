@@ -7,7 +7,7 @@ class VerifikasiAdmin extends BaseController
 		$data = [
 			'isi' => 'verifikasiAdmin',
 		];
-		echo view('layouts/wrapper', $data);
+		echo view('layout/wrapper', $data);
 	}
 
 

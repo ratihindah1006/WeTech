@@ -8,7 +8,7 @@ class Terdaftar extends BaseController
 			'title' => 'User Terdaftar',
 			'isi' => 'user/terdaftar',
 		];
-		echo view('layouts/wrapper', $data);
+		echo view('layout/wrapper', $data);
 	}
 
 

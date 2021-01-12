@@ -9,7 +9,7 @@ class addMovie extends BaseController
 			'title' => 'AddMovie',
 			'isi' => 'AdminMovie/addMovie',
 		];
-		echo view('layouts/wrapper', $data);
+		echo view('layout/wrapper', $data);
 	}
 
 

@@ -9,18 +9,14 @@
 							<div class="review-info">
 								<a class="span" href="Detail">Interstellar</a>
 								<div class="yrw">									
-									<div class="rtm text-center">
-										<a href="#">REVIEW THIS MOVIE</a>
-									</div>
-									<div class="wt text-center">
-										<a href="#">WATCH THIS TRAILER</a>
-									</div>
+								
 									<div class="clearfix"></div>
 								</div>
 								<p class="info">CAST:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Will Smith, Margot Robbie, Adrian Martinez, Rodrigo Santoro, BD Wong, Robert Taylor</p>
 								<p class="info">DIRECTION: &nbsp;&nbsp;&nbsp;&nbsp;Glenn Ficarra, John Requa</p>
 								<p class="info">GENRE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Crime</p>
 								<p class="info">DURATION:&nbsp;&nbsp;&nbsp; &nbsp; 1 hour 45 minutes</p>
+								<a class="book" href="Checkout"><i class="book1"></i>BOOK TICKET</a>
 							</div>
 							<div class="clearfix"></div>
 						</div>
@@ -31,18 +27,13 @@
 							<div class="review-info">
 								<a class="span" href="Detail">Big Hero</a>
 								<div class="yrw">									
-									<div class="rtm text-center">
-										<a href="#">REVIEW THIS MOVIE</a>
-									</div>
-									<div class="wt text-center">
-										<a href="#">WATCH THIS TRAILER</a>
-									</div>
 									<div class="clearfix"></div>
 								</div>
 								<p class="info">CAST:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Will Smith, Margot Robbie, Adrian Martinez, Rodrigo Santoro, BD Wong, Robert Taylor</p>
 								<p class="info">DIRECTION: &nbsp;&nbsp;&nbsp;&nbsp;Glenn Ficarra, John Requa</p>
 								<p class="info">GENRE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Crime</p>
 								<p class="info">DURATION:&nbsp;&nbsp;&nbsp; &nbsp; 1 hour 45 minutes</p>
+								<a class="book" href="Checkout"><i class="book1"></i>BOOK TICKET</a>
 							</div>
 							<div class="clearfix"></div>
 						</div>
@@ -54,18 +45,14 @@
 							<div class="review-info">
 								<a class="span" href="Detail">The Lego Movie</a>
 								<div class="yrw">									
-									<div class="rtm text-center">
-										<a href="#">REVIEW THIS MOVIE</a>
-									</div>
-									<div class="wt text-center">
-										<a href="#">WATCH THIS TRAILER</a>
-									</div>
+									
 									<div class="clearfix"></div>
 								</div>
 								<p class="info">CAST:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Will Smith, Margot Robbie, Adrian Martinez, Rodrigo Santoro, BD Wong, Robert Taylor</p>
 								<p class="info">DIRECTION: &nbsp;&nbsp;&nbsp;&nbsp;Glenn Ficarra, John Requa</p>
 								<p class="info">GENRE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Crime</p>
 								<p class="info">DURATION:&nbsp;&nbsp;&nbsp; &nbsp; 1 hour 45 minutes</p>
+								<a class="book" href="Checkout"><i class="book1"></i>BOOK TICKET</a>
 							</div>
 							<div class="clearfix"></div>
 						</div>
@@ -87,18 +74,13 @@
 							<div class="review-info">
 								<a class="span" href="Detail">Interstellar</a>
 								<div class="yrw">									
-									<div class="rtm text-center">
-										<a href="#">REVIEW THIS MOVIE</a>
-									</div>
-									<div class="wt text-center">
-										<a href="#">WATCH THIS TRAILER</a>
-									</div>
 									<div class="clearfix"></div>
 								</div>
 								<p class="info">CAST:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Will Smith, Margot Robbie, Adrian Martinez, Rodrigo Santoro, BD Wong, Robert Taylor</p>
 								<p class="info">DIRECTION: &nbsp;&nbsp;&nbsp;&nbsp;Glenn Ficarra, John Requa</p>
 								<p class="info">GENRE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Crime</p>
 								<p class="info">DURATION:&nbsp;&nbsp;&nbsp; &nbsp; 1 hour 45 minutes</p>
+								<a class="book" href="Checkout"><i class="book1"></i>BOOK TICKET</a>
 							</div>
 							<div class="clearfix"></div>
 						</div>
@@ -109,18 +91,13 @@
 							<div class="review-info">
 								<a class="span" href="Detail">The Avengers</a>
 								<div class="yrw">									
-									<div class="rtm text-center">
-										<a href="#">REVIEW THIS MOVIE</a>
-									</div>
-									<div class="wt text-center">
-										<a href="#">WATCH THIS TRAILER</a>
-									</div>
-									<div class="clearfix"></div>
+								<div class="clearfix"></div>
 								</div>
 								<p class="info">CAST:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Will Smith, Margot Robbie, Adrian Martinez, Rodrigo Santoro, BD Wong, Robert Taylor</p>
 								<p class="info">DIRECTION: &nbsp;&nbsp;&nbsp;&nbsp;Glenn Ficarra, John Requa</p>
 								<p class="info">GENRE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Crime</p>
 								<p class="info">DURATION:&nbsp;&nbsp;&nbsp; &nbsp; 1 hour 45 minutes</p>
+								<a class="book" href="Checkout"><i class="book1"></i>BOOK TICKET</a>
 							</div>
 							<div class="clearfix"></div>
 						</div>
@@ -132,18 +109,13 @@
 							<div class="review-info">
 								<a class="span" href="Detail">The Amazing Spider-Man 2</a>
 								<div class="yrw">									
-									<div class="rtm text-center">
-										<a href="#">REVIEW THIS MOVIE</a>
-									</div>
-									<div class="wt text-center">
-										<a href="#">WATCH THIS TRAILER</a>
-									</div>
-									<div class="clearfix"></div>
+								<div class="clearfix"></div>
 								</div>
 								<p class="info">CAST:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Will Smith, Margot Robbie, Adrian Martinez, Rodrigo Santoro, BD Wong, Robert Taylor</p>
 								<p class="info">DIRECTION: &nbsp;&nbsp;&nbsp;&nbsp;Glenn Ficarra, John Requa</p>
 								<p class="info">GENRE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Crime</p>
 								<p class="info">DURATION:&nbsp;&nbsp;&nbsp; &nbsp; 1 hour 45 minutes</p>
+								<a class="book" href="Checkout"><i class="book1"></i>BOOK TICKET</a>
 							</div>
 							<div class="clearfix"></div>
 						</div>

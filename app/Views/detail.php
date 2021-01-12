@@ -10,19 +10,13 @@
 								<a class="span" href="single.html">Lorem  <i>Movie Review</i></a>
 								
 								<div class="yrw">
-									
-									<div class="rtm text-center">
-										<a href="#">REVIEW THIS MOVIE</a>
-									</div>
-									<div class="wt text-center">
-										<a href="#">WATCH THIS TRAILER</a>
-									</div>
-									<div class="clearfix"></div>
+								<div class="clearfix"></div>
 								</div>
 								<p class="info">CAST:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Will Smith, Margot Robbie, Adrian Martinez, Rodrigo Santoro, BD Wong, Robert Taylor</p>
 								<p class="info">DIRECTION: &nbsp;&nbsp;&nbsp;&nbsp;Glenn Ficarra, John Requa</p>
 								<p class="info">GENRE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Crime</p>
 								<p class="info">DURATION:&nbsp;&nbsp;&nbsp; &nbsp; 1 hour 45 minutes</p>
+								<a class="book" href="Checkout"><i class="book1"></i>BOOK TICKET</a>
 							</div>
 							<div class="clearfix"></div>
 						</div>

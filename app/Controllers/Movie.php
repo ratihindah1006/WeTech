@@ -15,7 +15,7 @@ class Movie extends BaseController
 			'movie' =>$this->movieModel->get_movie(),
 			'isi' => 'AdminMovie/movie',
 		];
-		echo view('layouts/wrapper', $data);
+		echo view('layout/wrapper', $data);
 	}
 
 	public function addMovie()
@@ -24,7 +24,7 @@ class Movie extends BaseController
 			'title' => 'AddMovie',
 			'isi' => 'AdminMovie/addMovie',
 		];
-		echo view('layouts/wrapper', $data);
+		echo view('layout/wrapper', $data);
 	}
 
 	public function save_add()
@@ -54,7 +54,7 @@ class Movie extends BaseController
 			'movie' => $this->movieModel->edit_movie($movie_id),
 			'isi' => 'AdminMovie/editMovie',
 		];
-		echo view('layouts/wrapper', $data);
+		echo view('layout/wrapper', $data);
 	}
 
 	public function updateMovie($movie_id)

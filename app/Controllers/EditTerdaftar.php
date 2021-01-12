@@ -9,7 +9,7 @@ class EditTerdaftar extends BaseController
 			'title' => 'Add Movie',
 			'isi' => 'user/EditTerdaftar',
 		];
-		echo view('layouts/wrapper', $data);
+		echo view('layout/wrapper', $data);
 	}
 
 }
