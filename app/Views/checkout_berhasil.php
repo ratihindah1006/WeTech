@@ -27,12 +27,22 @@
               <label>&nbsp;&nbsp;Jam : </label>
                 
               </div></br>
+
+              <div class="form-group">
+              <label>&nbsp;&nbsp;Total Bayar : </label>
+                
+              </div></br>
+
+              <div class="form-group" align ="center">
+              <label>&nbsp;&nbsp;Bayar Ke : xxxxxxxxxxxxx</label>
+                
+              </div></br>
               
               
             </div> </br></br></br>
             
 
             <div class="card-footer" align ="center">
-            <a href="VerifikasiAdmin" class="btn btn-primary ">Bayar</a>
+            <a href="Bukti" class="btn btn-primary ">Bayar</a>
             </div>
           </form> </br></br></br>

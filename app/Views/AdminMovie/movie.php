@@ -1,6 +1,6 @@
  <div class="col-sm-12">
         <h3 class="mt-2">Movie</h3>
-         <a href="addMovie" class="btn btn-primary mb-3">Add Movie</a>
+        <a href="<?= base_url('Movie/addMovie/')?>" class="btn btn-primary mb-3">Add Movie</a>
          <br>
          <?php
          if(!empty(session()->getFlashdata('success')))

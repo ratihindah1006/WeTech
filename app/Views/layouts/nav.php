@@ -7,7 +7,7 @@
 				<li><a href="Homepage">
 						<div class="homepage"><i class="videos"></i><i class="videos1"></i></div>
 					</a></li>
-				<li><a href="Cetak">
+				<li><a href="Riwayat">
 						<div class="#"><i class="watching"></i><i class="watching1"></i></div>
 					</a></li>
 				<li><a href="<?= base_url('Login'); ?>"><i class="fas fa-fw fa-sign-in-alt fa-4x" style="color: gray;"></i></a></li>

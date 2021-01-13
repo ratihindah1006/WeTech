@@ -1,6 +1,6 @@
 <div class="col-sm-12">
         <h3 class="mt-2">User Terdaftar</h3>
-         <a href="AddTerdaftar" class="btn btn-primary mb-3">Add User</a>
+        <a href="<?= base_url('Terdaftar/addUser')?>" class="btn btn-primary mb-3">Add User</a>
          <?php
          if(!empty(session()->getFlashdata('success')))
          {
