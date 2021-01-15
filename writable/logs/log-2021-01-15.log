@@ -1,0 +1,13 @@
+CRITICAL - 2021-01-15 00:55:43 --> Unknown column 'bukti' in 'field list'
+#0 /home/BrondoL/Desktop/WeTech/system/Database/MySQLi/Connection.php(331): mysqli->query('UPDATE `checkou...')
+#1 /home/BrondoL/Desktop/WeTech/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `checkou...')
+#2 /home/BrondoL/Desktop/WeTech/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `checkou...')
+#3 /home/BrondoL/Desktop/WeTech/system/Database/BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query('UPDATE `checkou...', Array, false)
+#4 /home/BrondoL/Desktop/WeTech/app/Models/CheckoutModel.php(31): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/BrondoL/Desktop/WeTech/app/Controllers/Bukti.php(45): App\Models\CheckoutModel->update_checkout(Array, 1)
+#6 /home/BrondoL/Desktop/WeTech/system/CodeIgniter.php(918): App\Controllers\Bukti->save()
+#7 /home/BrondoL/Desktop/WeTech/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukti))
+#8 /home/BrondoL/Desktop/WeTech/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/BrondoL/Desktop/WeTech/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /home/BrondoL/Desktop/WeTech/system/Commands/Server/rewrite.php(34): require_once('/home/BrondoL/D...')
+#11 {main}

@@ -10,7 +10,11 @@
 				<li><a href="Riwayat">
 						<div class="#"><i class="watching"></i><i class="watching1"></i></div>
 					</a></li>
-				<li><a href="<?= base_url('Login'); ?>"><i class="fas fa-fw fa-sign-in-alt fa-4x" style="color: gray;"></i></a></li>
+				<?php if (session()->get('status') == 1) : ?>
+					<li><a href="<?= base_url('Logout'); ?>" onclick="return confirm('Apakah anda ingin logout ？')"><i class="fas fa-fw fa-sign-in-alt fa-4x" style="color: gray;"></i></a></li>
+				<?php else : ?>
+					<li><a href="<?= base_url('Login'); ?>"><i class="fas fa-fw fa-sign-in-alt fa-4x" style="color: gray;"></i></a></li>
+				<?php endif; ?>
 			</ul>
 		</div>
 		<div class="main">

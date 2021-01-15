@@ -32,7 +32,7 @@
                     <img src="assets/Login/images/img-01.png" alt="IMG">
                 </div>
 
-                <form action="<?= base_url('Auth/login'); ?>" method="POST" class="login100-form validate-form">
+                <form action="<?= base_url('Auth/saveRegister'); ?>" method="POST" class="login100-form validate-form">
                     <span class="login100-form-title">
                         Member Register
                     </span>

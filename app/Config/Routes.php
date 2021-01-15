@@ -33,9 +33,12 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/Login', 'Auth::index');
+$routes->get('/Logout', 'Auth::logout');
 $routes->get('/Register', 'Auth::register');
 $routes->get('/MovieList', 'Movie::index');
-
+$routes->get('/Checkout/(:num)', 'Checkout::index/$1');
+$routes->get('/Checkout_Berhasil/(:num)', 'Checkout_Berhasil::index/$1');
+$routes->get('/Cetak/(:num)', 'Cetak::index/$1');
 
 /**
  * --------------------------------------------------------------------

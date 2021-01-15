@@ -1,17 +1,23 @@
-<?php namespace App\Models;
+<?php
+
+namespace App\Models;
 
 use CodeIgniter\Model;
 
 class CheckoutModel extends Model
 {
+    protected $table = 'checkout';
+    protected $primaryKey = 'id_checkout';
+    protected $allowedFields = ['user_id', 'title', 'tanggal', 'jam', 'total_bayar', 'bukti', 'bayar', 'is_active'];
+
     public function get_checkout()
     {
         return $this->db->table('checkout')->get()->getResultArray();
     }
     public function insert_checkout($data)
-        {
-            return $this->db->table('checkout')->insert($data);
-        }
+    {
+        return $this->db->table('checkout')->insert($data);
+    }
     public function edit_checkout($id_checkout)
     {
         $query = $this->db->query("select * from checkout where id_checkout = $id_checkout");

@@ -7,7 +7,6 @@ use CodeIgniter\Model;
 class UserModel extends Model
 {
     protected $table = 'user';
-    protected $useTimestamps = true;
     protected $primaryKey = 'user_id';
     protected $allowedFields = ['nama', 'email', 'password', 'role_id', 'is_active', 'date_created'];
 
@@ -21,9 +20,9 @@ class UserModel extends Model
         return $this->db->table('user')->get()->getResultArray();
     }
     public function insert_user($data)
-        {
-            return $this->db->table('user')->insert($data);
-        }
+    {
+        return $this->db->table('user')->insert($data);
+    }
     public function edit_user($user_id)
     {
         $query = $this->db->query("select * from user where user_id = $user_id");

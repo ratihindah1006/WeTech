@@ -42,6 +42,11 @@
                             <?= session()->getFlashdata('pesan'); ?>
                         </div>
                     <?php endif; ?>
+                    <?php if (session()->getFlashdata('daftar')) : ?>
+                        <div class="alert alert-success">
+                            <?= session()->getFlashdata('daftar'); ?>
+                        </div>
+                    <?php endif; ?>
 
 
                     <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">

@@ -1,4 +1,6 @@
-<?php namespace App\Controllers;
+<?php
+
+namespace App\Controllers;
 
 class Bayar extends BaseController
 {
@@ -9,8 +11,4 @@ class Bayar extends BaseController
 		];
 		echo view('layout/wrapper', $data);
 	}
-
-
-	
-
 }
