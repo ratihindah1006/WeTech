@@ -14,7 +14,7 @@
               <div class="card-body" >
                   
                   <div class="form-group">
-                  <label>Nama : value="<?= $user['nama']?>"</label>
+                  <label>Nama : </label>
                     <input name="nama" type="text" class="form-control"  value="<?= $user['nama']?>">
                   </div>
 

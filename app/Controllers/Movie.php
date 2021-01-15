@@ -1,5 +1,5 @@
 <?php namespace App\Controllers;
-use App\Models\MovieModel;
+use App\Models\Moviemodel;
 class Movie extends BaseController
 {
 	protected $adminModel;

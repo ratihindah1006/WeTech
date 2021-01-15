@@ -7,7 +7,7 @@
 				<li><a href="Terdaftar">
 						<div class="#"><i class="watching"></i><i class="watching1"></i></div>
 					</a></li>
-				<li><a href="Bayar">
+				<li><a href="Checkout">
 						<div class="bk"><i class="booking"></i><i class="booking1"></i></div>
 					</a></li>
 				<li><a href="<?= base_url('Login'); ?>"><i class="fas fa-fw fa-sign-in-alt fa-4x" style="color: gray;"></i></a></li>
